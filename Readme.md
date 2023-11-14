@@ -1,4 +1,4 @@
-# device connectivity API
+# Device connectivity API
 
 #Sample Request for Success
 
