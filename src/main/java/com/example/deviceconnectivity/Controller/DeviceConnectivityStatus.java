@@ -5,19 +5,17 @@ import com.example.deviceconnectivity.DeviceConnectivityApplication;
 import com.example.deviceconnectivity.dto.ErroInfo;
 import com.example.deviceconnectivity.dto.OrangeApiRequest;
 import com.example.deviceconnectivity.dto.OrangeApiResponse;
-import com.example.deviceconnectivity.dto.UeId;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.RestTemplate;
 
 
 @RestController
 @Slf4j
-public class DeviceController {
+public class DeviceConnectivityStatus {
 
     private static final Logger logger = LogManager.getLogger(DeviceConnectivityApplication.class);
 
